@@ -33,6 +33,7 @@ def preprocess_audio(file_path, max_timesteps, n_mfcc=13):
 # Streamlit UI
 st.title("Music Genre Classifier")
 st.write("Upload a `.wav` file, and this app will predict the genre!")
+st.write("Blues Jazz Country Disco Hiphop Metal Pop Reggae Rock")
 
 # File upload
 uploaded_file = st.file_uploader("Choose a .wav file", type="wav")
